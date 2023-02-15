@@ -1,0 +1,22 @@
+/* @import url('https://fonts.cdnfonts.com/css/ds-digital'); */
+@import url('https://fonts.cdnfonts.com/css/lcd');
+
+.App {
+  background: url("https://res.cloudinary.com/dlvbfzkt9/image/upload/v1676327859/random/doctor-strange-time-stone-pic_rthy79.jpg");
+  background-size: 100%;
+  background-position: center;
+  font-family: 'LCD2', sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* text-shadow: red 5px 5px 10px; */
+  text-shadow:
+      0 0 22px red,
+      0 0 42px red;
+  height: 100vh;
+  gap: 1.5rem;
+}
